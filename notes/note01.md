@@ -12,7 +12,12 @@
     computation graph   
 - installation of tensorflow    
     anaconda, cpu, gpu  
-- useful resources:     
+- useful online courses:  
+    https://www.coursera.org/learn/machine-learning     
+    https://www.youtube.com/watch?v=qeHZOdmJvFU&list=PLVJA7edNhnRTYqqW5zIj0gkVmxWnkXqTP
+    https://www.youtube.com/watch?v=mbyG85GZ0PI&list=PLD63A284B7615313A
+    
+    (Chinese language)       
     http://www.csie.ntu.edu.tw/~htlin/mooc/   (very theoretical)    
     https://morvanzhou.github.io/tutorials/ (good introduction)     
         
