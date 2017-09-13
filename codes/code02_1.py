@@ -1,12 +1,12 @@
 '''
 <summary>:
 use tensorflow to perform:
-- single hidder layer with 10 nodes 
-- use activation_function=ReLu
-- Regression learning
+- single hidder layer with arbitary nodes 
+- use arbitary activation_function
+- supervised Regression learning
 
 <procedure>: 
-- generate raw data: y=x^2-x0
+- generate raw data: y=x**p-x0
 - define tensorflow computation graph
 - training 
 '''
@@ -23,6 +23,7 @@ x_shift=0.5
 noise_std=0.05     # noise standard deviation
 # layer 
 layer_node=10      # nodes of the hidden layer
+act_func=tf.nn.relu  # activation_function
 # train
 steps=1000         # training steps
 step_show=100      # number of steps to show results 
@@ -54,7 +55,7 @@ x_tf = tf.placeholder(tf.float32, [None, 1])
 y_tf = tf.placeholder(tf.float32, [None, 1])
 
 # add hidden layer
-l1 = add_layer(x_tf, 1, layer_node, activation_function=tf.nn.relu)
+l1 = add_layer(x_tf, 1, layer_node, activation_function=act_func)
 
 # add output layer
 prediction = add_layer(l1, layer_node, 1, activation_function=None)

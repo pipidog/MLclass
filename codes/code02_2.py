@@ -1,14 +1,15 @@
 '''
 <summary>:
 use tensorflow to perform:
-- single hidder layer with 10 nodes 
-- use activation_function=ReLu
-- regression learning
+- single hidder layer with arbitary nodes 
+- use arbitary activation_function
+- supervised Regression learning
+
 <procedure>: 
-- generate raw data: y=x^2-x0
+- generate raw data: y=x**p-x0
 - define tensorflow computation graph
 - training 
-  randomly pick a batch of data for every step
+
 <difference>:
 - using batch set to speed up training
 '''
@@ -22,11 +23,12 @@ import timeit
 # Parameters ========================
 # input data (y=x**x_power+x_shift+noise)
 dataset_size=1000
-x_power=5          
+x_power=3          
 x_shift=1.0        
 noise_std=0.05     # noise standard deviation
 # layer 
 layer_node=10      # nodes of the hidden layer
+act_func=tf.nn.relu  # activation_function
 # train
 batch_size=10      # batch size
 steps=1000         # training steps
@@ -59,7 +61,7 @@ x_tf = tf.placeholder(tf.float32, [None, 1])
 y_tf = tf.placeholder(tf.float32, [None, 1])
 
 # add hidden layer
-l1 = add_layer(x_tf, 1, layer_node, activation_function=tf.nn.relu)
+l1 = add_layer(x_tf, 1, layer_node, activation_function=act_func)
 
 # add output layer
 prediction = add_layer(l1, layer_node, 1, activation_function=None)
