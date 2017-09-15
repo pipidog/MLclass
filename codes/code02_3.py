@@ -35,7 +35,7 @@ act_func=tf.nn.relu  # activation_function
 batch_size=10      # batch size
 steps=1000         # training steps
 step_show=100      # number of steps to show results 
-learning_rate=0.1
+learning_rate=0.5
 # generate data ======================
 x_data = np.linspace(-1, 1, dataset_size)[:, np.newaxis] # dataset_size x 1
 noise = np.random.normal(0, noise_std, x_data.shape)
@@ -67,8 +67,8 @@ ax = fig.add_subplot(1,1,1)
 
 start = timeit.default_timer()
 for i in range(steps+1):
-    # training
-    batch_select=np.random.randint(0,len(x_data),batch_size)
+    # random select batch set
+    batch_select=np.random.randint(0,len(x_data)-1,batch_size)
     
     _, loss_value, prediction_value=\
     sess.run([train_op,loss,prediction], {x_tf: x_data[batch_select], y_tf: y_data[batch_select]})
@@ -81,7 +81,6 @@ for i in range(steps+1):
         plt.cla()
         lines = ax.plot(x_data, prediction_value, 'r-', lw=5)
         ax.scatter(x_data, y_data)
-        #plt.text(-0.3, 0.25, 'step={0}, Loss={1:.4f}'.format(i,loss_value), fontdict={'size': 12, 'color': 'green'})
         plt.title('step={0}, Loss={1:.4f}'.format(i,loss_value), fontdict={'size': 12, 'color': 'green'})
         plt.pause(0.5)
 stop = timeit.default_timer()

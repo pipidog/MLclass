@@ -84,10 +84,12 @@ ax = fig.add_subplot(1,1,1)
 
 start = timeit.default_timer()
 for i in range(steps+1):
+    # random select batch set
+    batch_select=np.random.randint(0,len(x_data)-1,batch_size)
+    
     # training
-    batch_select=np.random.randint(0,len(x_data),batch_size)
     sess.run(train_step, feed_dict={x_tf: x_data[batch_select], y_tf: y_data[batch_select]})
-    #sess.run(train_step, feed_dict={x_tf: x_data, y_tf: y_data})
+
     if i % step_show == 0:
         # evaulate values
         prediction_value = sess.run(prediction, feed_dict={x_tf: x_data})
