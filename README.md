@@ -17,8 +17,8 @@ to spi@ucdavis.edu or visit our facebook pages for discussion.
 
 * Course Schedule (update weekly):          
     week 1: introduction to machine learning          
-    week 2: introduction to tensorflow          
-    week 3: visualize tensorflow via tensorboard    
+    week 2: basis of deep learning (1)     
+    week 3: basis of deep learning (2)    
     
     --- below are are planned topics ---        
             
