@@ -17,12 +17,11 @@ to spi@ucdavis.edu or visit our facebook pages for discussion.
 
 * Course Schedule (update weekly):          
     week 1: introduction to machine learning          
-    week 2: basis of deep learning (1)     
-    week 3: basis of deep learning (2)    
+    week 2: basis of deep learning and regression     
+    week 3: tensorboard and classification    
     
     --- below are are planned topics ---        
             
-            MINST classification    
             Overfitting    
             Save your Training  
             CNN 
@@ -35,6 +34,7 @@ to spi@ucdavis.edu or visit our facebook pages for discussion.
                 
 * Tutorial Codes:   
     code01_x.py : show how to install necessary packages    
-    code02_x.py : supervised, regression fitting of arbitary curves     
-    code03_x.py : show how to use tensorboard to visualize your code    
+    code02_x.py : regression fitting of arbitary curves     
+    code03_x.py : using tensorboard to visualize your tensorflow calculation 
+    code04_x.py : image classification on MNIST hand-writing dataset
 

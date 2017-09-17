@@ -7,9 +7,7 @@
     weight, biases          
 - activation functions          
     https://www.tensorflow.org/api_guides/python/nn         
-    sigmoid, relu, tanh         
-- loss functions    
-    cross entropy, mean square error    
+    sigmoid, relu, tanh            
 - forward, and back propagation        
 - optimizer     
     https://www.tensorflow.org/api_guides/python/train      

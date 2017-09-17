@@ -25,7 +25,7 @@ import timeit
 # Parameters ========================
 # input data (y=x**x_power+x_shift+noise)
 dataset_size=1000
-x_power=5          
+x_power=4          
 x_shift=1.0        
 noise_std=0.05     # noise standard deviation
 # layer 
