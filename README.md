@@ -16,25 +16,23 @@ tool to deal with real problems. If you have further questions, please email
 to spi@ucdavis.edu or visit our facebook pages for discussion.
 
 * Course Schedule (update weekly):          
-    week 1: introduction to machine learning          
-    week 2: basis of deep learning and regression     
-    week 3: tensorboard and classification    
+    week 1: introduction to machine learning             
+    week 2: basis of deep learning: regression            
+    week 3: basis of deep learning: tensorboard & classification 
+    week 4: basis of deep learning: MINST & overfitting            
+    week 5: basis of deep learning: Save Training & Keras     
     
-    --- below are are planned topics ---        
-            
-            Overfitting    
-            Save your Training  
+    --- below are are planned future topics ---        
             CNN 
             RNN     
-            RNN + LSTM  
-            Autoencoder 
-            Using Keras     
-            Using Scikit learn      
+            Autoencoder    
             Special Projects        
                 
 * Tutorial Codes:   
-    code01_x.py : show how to install necessary packages    
-    code02_x.py : regression fitting of arbitary curves     
-    code03_x.py : using tensorboard to visualize your tensorflow calculation 
-    code04_x.py : image classification on MNIST hand-writing dataset
-
+    see /code/README.txt for example codes of each week. 
+    code02_1_v1 means: week2, example 1, version 1    
+    
+    for some examples, I will prepare several versions which are slightly
+    different with various techniqes. You should read all of them to fully
+    understand what we have learned in the classes. 
+    
