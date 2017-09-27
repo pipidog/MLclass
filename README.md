@@ -1,10 +1,10 @@
 ![TF logo](https://github.com/pipidog/MLclass/raw/master/notes/TF_logo_no_shadow_1.png)
 # What is this?
-This is the reposity of my Machine Learning course ( or more precisely, 
-a discussion gruop) at Physics Department, UC Davis. Each 
-week I will introduce several topics, from beginning to advanced, about 
-machine learning techniqes. Keyword notes and lecture slides can be found 
-in the note/slide folders.      
+This is the reposity of my course ( or more precisely, 
+a discussion gruop): Deep Learning Using Tensorflow at Physics Department, 
+UC Davis. Each week I will introduce several topics, from beginning to 
+advanced, about machine learning techniqes. Keyword notes and lecture 
+slides can be found in the note/slide folders.          
 
 Each week I will also prepare a few codes to explain what we have learned 
 in the class. Most codes are based on Google's tensorflow, but Keras 
@@ -18,10 +18,10 @@ to spi@ucdavis.edu or visit our facebook pages for discussion.
 * Course Schedule (update weekly):          
     week 1: introduction to machine learning             
     week 2: basis of deep learning: regression            
-    week 3: basis of deep learning: tensorboard & classification 
-    week 4: basis of deep learning: MINST & overfitting            
-    week 5: basis of deep learning: Keras 
-    week 6: basis of deep learning: Look back NN again
+    week 3: basis of deep learning: tensorboard & classification    
+    week 4: basis of deep learning: MINST & overfitting             
+    week 5: basis of deep learning: Keras       
+    week 6: basis of deep learning: Look back NN again      
     
     --- below are are planned future topics ---        
             CNN 
