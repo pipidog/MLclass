@@ -30,3 +30,11 @@ code04_ex1_v2 (MINST classification)
 show how to construct a fully connected NN to regonize 
 MINST data, i.e. supervised classification. 
 
+code04_ex2_v1 (MINST overfitting)
+similar to ex1, but add dropout to compare w/ and w/o overfitting
+
+code04_ex3_v1 (curve overfitting)
+use NN w/ and w/o dropout to compare overfitting on a linear curve
+
+code04_ex4_v1 (save training)
+show how to save trained results

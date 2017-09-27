@@ -27,7 +27,6 @@ steps=3000
 batch_size=300
 step_show=50
 learning_rate=0.5
-keep_prob=0.5
 cross_entropy_method='old'
 
 # generate data ===================================

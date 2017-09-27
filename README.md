@@ -20,7 +20,8 @@ to spi@ucdavis.edu or visit our facebook pages for discussion.
     week 2: basis of deep learning: regression            
     week 3: basis of deep learning: tensorboard & classification 
     week 4: basis of deep learning: MINST & overfitting            
-    week 5: basis of deep learning: Save Training & Keras     
+    week 5: basis of deep learning: Keras 
+    week 6: basis of deep learning: Look back NN again
     
     --- below are are planned future topics ---        
             CNN 
@@ -30,7 +31,7 @@ to spi@ucdavis.edu or visit our facebook pages for discussion.
                 
 * Tutorial Codes:   
     see /code/README.txt for example codes of each week. 
-    code02_1_v1 means: week2, example 1, version 1    
+    code02_ex1_v1 means: week2, example 1, version 1    
     
     for some examples, I will prepare several versions which are slightly
     different with various techniqes. You should read all of them to fully
