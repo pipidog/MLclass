@@ -28,7 +28,7 @@ import sys
 data_center=[[2,2],[2,-2],[-2,2],[-2,-2]] # data distribtion centers
 train_num=1000                     # number of data around a data center
 test_num=100
-noise_std=0.7                    # noise of data around a center
+noise_std=1.0                    # noise of data around a center
 # hidden layer
 layer_nodes=[10]
 act_func=tf.nn.relu
