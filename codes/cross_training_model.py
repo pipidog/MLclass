@@ -12,7 +12,7 @@ our accuracy?
 Idea:
 randomly pick some of the labeled data to train two or more different 
 machines. Since they read different data, their understanding of the 
-data should also be different.
+data shoul also be different.
 
 For the unlabeled data, we ask each machine to pedict their categories
 (i.e. the softmax probability) and pick the one with higest probability
@@ -29,7 +29,7 @@ from keras.layers import Dense, Dropout
 layer_nodes=[100,100]       # node of hidder layers
 act_func='relu'             # activation function
 label_dataset=20000         # less than 60000
-peer_dataset=[5000,10000]   # initial feeding of each peer
+peer_dataset=[3000,10000]   # initial feeding of each peer
 cross_train_times=4         # batch=(# of unlabel)/times       
 dropout_rate=0.5            # dropout rate
 # preprocessing data ===============================
@@ -128,6 +128,7 @@ for n in range(cross_train_times):
 
     ind_ini=ind_fin
 print('----- result of cross training -----')
-print('loss / acc')
+[print('loss-{0} acc-{0} / '.format(n),end='') for n in range(tot_peer)]
+print()
 print(np.array(test_result))
 
