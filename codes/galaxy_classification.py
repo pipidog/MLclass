@@ -23,8 +23,10 @@ layer_nodes=[100,100]
 act_func='relu'
 dropout_rate=0.5
 epochs=10
+batch_size=200
 
 # preprocessing data ===============================
+np.random.seed(10)
 with open('galaxy_table.txt','r') as file:
     flines=file.readlines()
 
@@ -51,8 +53,8 @@ print(model.summary())
 model.compile(loss='binary_crossentropy',
   optimizer='adam', metrics=['accuracy'])
 
-train_history=model.fit(x=x,y=y,validation_split=0.2, 
-                        epochs=epochs, batch_size=200,verbose=2)
+train_history=model.fit(x=x,y=y,validation_split=0.2,epochs=epochs,
+                batch_size=batch_size,verbose=2)
 
 # plot train results ===============================
 def show_train_history(train_history,train_item,valid_item):
@@ -68,7 +70,7 @@ show_train_history(train_history,'loss','val_loss')
 
 # prediction & confusion matrix =====================
 prediction=model.predict_classes(x)
-print(' confusion matrix ----------- ')
+print('\n--------- confusion matrix ---------- ')
 datatab=pd.crosstab(y,np.squeeze(prediction),
             rownames=['label'],colnames=['predict'])
 print(datatab)

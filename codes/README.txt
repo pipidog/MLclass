@@ -23,18 +23,23 @@ generate several data around some centers with noises and
 show how to perform classification using fully connected NN.
 concepts of softmax and cross entropy are emphasized. 
 
-code04_ex1_v1 (MINST classification)
+code04_ex1_v1 (curve overfitting)
+use NN w/ and w/o dropout to compare overfitting on a linear curve
+
+code04_ex2_v1 (save training)
+show how to save trained results
+
+code05_ex1_v1 (MINST classification)
 show how to plot MINST figures.
 
-code04_ex1_v2 (MINST classification)
+code05_ex1_v2 (MINST classification)
 show how to construct a fully connected NN to regonize 
 MINST data, i.e. supervised classification. 
 
-code04_ex2_v1 (MINST overfitting)
+code05_ex2_v1 (MINST overfitting)
 similar to ex1, but add dropout to compare w/ and w/o overfitting
 
-code04_ex3_v1 (curve overfitting)
-use NN w/ and w/o dropout to compare overfitting on a linear curve
+code05_ex3_v1 (Keras MINST)
+similar to ex2, but use Keras
 
-code04_ex4_v1 (save training)
-show how to save trained results
+

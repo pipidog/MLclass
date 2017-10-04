@@ -19,9 +19,9 @@ to spi@ucdavis.edu or visit our facebook pages for discussion.
     week 1: introduction to machine learning             
     week 2: basis of deep learning: regression            
     week 3: basis of deep learning: tensorboard & classification    
-    week 4: basis of deep learning: MINST & overfitting             
-    week 5: basis of deep learning: Keras       
-    week 6: basis of deep learning: Look back NN again      
+    week 4: basis of deep learning: Look back deep learning again            
+    week 5: basis of deep learning: MNIST & Keras       
+    week 6: Introduction to conventional neural network       
     
     --- below are are planned future topics ---        
             CNN 
