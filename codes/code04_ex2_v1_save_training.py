@@ -3,6 +3,10 @@
 this code show how to save and restore the trained results.
 
 <procedure>: 
+1. generte tf variables
+2. save it
+3. reconstruct tf computation graph
+4. load it. 
 
 <Note>:
 
