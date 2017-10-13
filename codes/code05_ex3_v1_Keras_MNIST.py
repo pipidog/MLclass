@@ -6,7 +6,7 @@ import sys
 
 import keras.utils as utils
 from keras.datasets import mnist
-from keras.models import Sequential
+from keras.models import Sequential, load_model
 from keras.layers import Dense
 from keras.utils import plot_model
 
@@ -49,6 +49,9 @@ model.compile(loss='categorical_crossentropy',
 
 train_history=model.fit(x=x_train,y=y_train,validation_split=0.2, 
                         epochs=10, batch_size=200,verbose=2)
+
+# save train result, to load it, use: model = load_model('model.h5')
+model.save(model,'model.h5')
 
 # plot train results ===============================
 def show_train_history(train_history,train_item,valid_item):
