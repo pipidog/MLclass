@@ -2,12 +2,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import sys
 
 import keras.utils as utils
 from keras.datasets import mnist
 from keras.models import Sequential
 from keras.layers import Dense
-
+from keras.utils import plot_model
 
 # Parameters ======================================
 layer_nodes=[100]
@@ -40,6 +41,7 @@ for n,nodes in enumerate(layer_nodes):
 model.add(Dense(units=10,kernel_initializer='normal',activation='softmax'))
 print('* Model Summary -------------')
 print(model.summary())
+plot_model(model, to_file='model.png')
 
 # Train model ======================================
 model.compile(loss='categorical_crossentropy',
@@ -80,6 +82,7 @@ plot_images_labels_prediction(x_test_image,y_test_label,
                               prediction,idx=340)
 
 # confusion matrix =============================
+
 datatab=pd.crosstab(y_test_label,prediction,
             rownames=['label'],colnames=['predict'])
 print(datatab)
