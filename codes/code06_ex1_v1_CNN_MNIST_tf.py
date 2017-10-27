@@ -3,7 +3,6 @@ from tensorflow.examples.tutorials.mnist import input_data
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import cm
-from sklearn.manifold import TSNE
 
 # parameters =============================
 # CNN
@@ -19,7 +18,6 @@ learning_rate = 0.001              # learning rate
 batch_size = 50
 step_per_epoch=50   # must be integer
 epoch=10                           
-tsne_plot=False
 
 # lodaing dataset ========================
 # set random seed to make result reproducible
@@ -86,13 +84,6 @@ for epoch_n in range(epoch):
 
     accuracy_, flat_output = sess.run([accuracy, flat], {x_tf: x_test, y_tf: y_test})
     print('epoch:', epoch_n, '| train loss: %.4f' % loss_, '| test accuracy: %.2f' % accuracy_)
-
-    if tsne_plot:
-        # visualization of trained flatten layer (T-SNE)
-        tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000); 
-        plot_only = 500
-        low_dim_embs = tsne.fit_transform(flat_output[:plot_only, :])
-        labels = np.argmax(y_test, axis=1)[:plot_only]; plot_with_labels(low_dim_embs, labels)
 plt.ioff()
 
 # print 10 predictions from test data
