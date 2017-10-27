@@ -3,7 +3,6 @@ from tensorflow.examples.tutorials.mnist import input_data
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import cm
-import sys
 from sklearn.manifold import TSNE
 
 # parameters =============================
@@ -33,13 +32,6 @@ y_train = mnist.train.labels
 x_test = mnist.test.images
 y_test = mnist.test.labels
 
-
-
-# # plot one example
-# print(mnist.train.images.shape)     # (55000, 28 * 28)
-# print(mnist.train.labels.shape)   # (55000, 10)
-# plt.imshow(mnist.train.images[0].reshape((28, 28)), cmap='gray')
-# plt.title('%i' % np.argmax(mnist.train.labels[0])); plt.show()
 
 # tensorflow computation graph ===========
 x_tf = tf.placeholder(tf.float32, [None, 28*28]) / 255.
