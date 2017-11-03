@@ -4,12 +4,24 @@
 		"selected_items":
 		[
 			[
-				"prim",
-				"prim_vec\tstatement"
+				"layer",
+				"layer_nodes\tparam"
+			],
+			[
+				"inpu",
+				"input_dim"
+			],
+			[
+				"dic",
+				"discriminator\tstatement"
 			],
 			[
 				"plot",
-				"plot_model\tfunction"
+				"plot_model\tmodule"
+			],
+			[
+				"prim",
+				"prim_vec\tstatement"
 			],
 			[
 				"random",
@@ -23,31 +35,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "code02_ex1_v3_curve_fitting.py",
-			"settings":
-			{
-				"buffer_size": 2782,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "code03_ex2_v1_point_classification.py",
-			"settings":
-			{
-				"buffer_size": 3963,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "code05_ex3_v1_Keras_MNIST.py",
-			"settings":
-			{
-				"buffer_size": 3400,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Anaconda Python Builder",
 	"build_system_choices":
@@ -110,16 +97,23 @@
 	"expanded_folders":
 	[
 		"/C/Users/pipid/Dropbox/Code/MLclass/codes",
-		"/C/Users/pipid/Dropbox/Code/MLclass_tmp"
+		"/C/Users/pipid/Dropbox/Code/MLclass_tmp",
+		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/GAN"
 	],
 	"file_history":
 	[
-		"/C/Users/pipid/Dropbox/Temp/Eu paper/codes/J_R _calculation.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/gnn_mnist_keras.py",
+		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/GAN/GAN_MNIST.py",
+		"/C/Users/pipid/Desktop/test.py",
+		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/gan_minst_keras_new.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code06_ex2_v1_CNN_MNIST_keras.py",
+		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/gan_minst_keras_new2.py",
+		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/gnn_mnist_keras.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code06_ex1_v2_CNN_MNIST_tf.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code06_ex1_v1_CNN_MNIST_tf.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/gan_minst_keras_new.py",
+		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code05_ex3_v1_Keras_MNIST.py",
+		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code03_ex2_v1_point_classification.py",
+		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code02_ex1_v3_curve_fitting.py",
+		"/C/Users/pipid/Dropbox/Temp/Eu paper/codes/J_R _calculation.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/gan_minst_keras_new.y",
 		"/C/MyDrive/Work/Eu/lmtart/bcc-U7-100/bcc-U7-100.pnt",
 		"/C/MyDrive/Work/Eu/lmtart/bcc-U7-100/jey02",
@@ -127,12 +121,10 @@
 		"/C/Users/pipid/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/C/Users/pipid/Dropbox/Code/PiLib-Scilab/Structure/PIL_recip_vec.sci",
 		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code05_ex1_v2_MNIST.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code05_ex3_v1_Keras_MNIST.py",
 		"/C/Users/pipid/Desktop/test2.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/keras_mnist_cnn.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/tf_np_thread_eig.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass/codes/cross_training_model.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code02_ex1_v3_curve_fitting.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code03_ex1_v2_tensorboard.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code02_ex1_v2_curve_fitting.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code02_ex1_v1_curve_ftting.py",
@@ -189,105 +181,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "code02_ex1_v3_curve_fitting.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2782,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								619,
-								619
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 396.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "code03_ex2_v1_point_classification.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3963,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1213,
-								1213
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 726.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "code05_ex3_v1_Keras_MNIST.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3400,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								438,
-								438
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

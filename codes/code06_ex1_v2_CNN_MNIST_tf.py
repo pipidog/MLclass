@@ -19,7 +19,7 @@ learning_rate = 0.001              # learning rate
 batch_size = 50
 step_per_epoch=50   # must be integer
 epoch=10                           
-tsne_plot=False
+tsne_plot=True
 
 # lodaing dataset ========================
 # set random seed to make result reproducible
