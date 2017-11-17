@@ -4,24 +4,8 @@
 		"selected_items":
 		[
 			[
-				"layer",
-				"layer_nodes\tparam"
-			],
-			[
-				"inpu",
-				"input_dim"
-			],
-			[
-				"dic",
-				"discriminator\tstatement"
-			],
-			[
 				"plot",
-				"plot_model\tmodule"
-			],
-			[
-				"prim",
-				"prim_vec\tstatement"
+				"plot_model\tfunction"
 			],
 			[
 				"random",
@@ -35,6 +19,25 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "code05_ex2_v1_MNIST_overfitting.py",
+			"settings":
+			{
+				"buffer_size": 3492,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nAnaconda\n--------\n\n  \n                                                            |\n                _` |  __ \\    _` |   __|   _ \\   __ \\    _` |   _` |\n               (   |  |   |  (   |  (     (   |  |   |  (   |  (   |\n              \\__,_| _|  _| \\__,_| \\___| \\___/  _|  _| \\__,_| \\__,_|\n                                       The Sublime Text 3 Python IDE\n  \n  \n  Anaconda v2.1.24\n  ================\n  \n  Welcome to new anaconda v2.1.24, what can do you find in this minor release?\n  \n  ## New Features\n      - Added new autocomplete paramaters when tab is used into a function call\n",
+			"settings":
+			{
+				"buffer_size": 638,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
 	],
 	"build_system": "Anaconda Python Builder",
 	"build_system_choices":
@@ -63,24 +66,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 77.0,
-		"last_filter": "scilab",
+		"height": 469.0,
+		"last_filter": "inst",
 		"selected_items":
 		[
-			[
-				"scilab",
-				"Set Syntax: scilab"
-			],
 			[
 				"inst",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 605.0
+		"width": 561.0
 	},
 	"console":
 	{
-		"height": 182.0,
+		"height": 0.0,
 		"history":
 		[
 		]
@@ -96,35 +95,18 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/pipid/Dropbox/Code/MLclass/codes",
-		"/C/Users/pipid/Dropbox/Code/MLclass_tmp",
-		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/GAN"
+		"/C/Users/pipidog-spectre/Dropbox/Code/MLclass/codes",
+		"/C/Users/pipid/Dropbox/Code/MLclass_tmp"
 	],
 	"file_history":
 	[
-		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/GAN/GAN_MNIST.py",
-		"/C/Users/pipid/Desktop/test.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/gan_minst_keras_new.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code06_ex2_v1_CNN_MNIST_keras.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/gan_minst_keras_new2.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/gnn_mnist_keras.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code06_ex1_v2_CNN_MNIST_tf.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code06_ex1_v1_CNN_MNIST_tf.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code05_ex3_v1_Keras_MNIST.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code03_ex2_v1_point_classification.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code02_ex1_v3_curve_fitting.py",
-		"/C/Users/pipid/Dropbox/Temp/Eu paper/codes/J_R _calculation.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/gan_minst_keras_new.y",
-		"/C/MyDrive/Work/Eu/lmtart/bcc-U7-100/bcc-U7-100.pnt",
-		"/C/MyDrive/Work/Eu/lmtart/bcc-U7-100/jey02",
-		"/C/MyDrive/Work/Eu/lmtart/bcc-U7-100/jey01",
-		"/C/Users/pipid/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
-		"/C/Users/pipid/Dropbox/Code/PiLib-Scilab/Structure/PIL_recip_vec.sci",
-		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code05_ex1_v2_MNIST.py",
+		"/C/Users/pipidog-spectre/Dropbox/Code/MLclass/codes/code05_ex1_v2_MNIST.py",
+		"/C/Users/pipidog-spectre/Dropbox/Code/MLclass/codes/code05_ex3_v1_Keras_MNIST.py",
 		"/C/Users/pipid/Desktop/test2.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/keras_mnist_cnn.py",
-		"/C/Users/pipid/Dropbox/Code/MLclass_tmp/tf_np_thread_eig.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass/codes/cross_training_model.py",
+		"/C/Users/pipid/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code02_ex1_v3_curve_fitting.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code03_ex1_v2_tensorboard.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code02_ex1_v2_curve_fitting.py",
 		"/C/Users/pipid/Dropbox/Code/MLclass/codes/code02_ex1_v1_curve_ftting.py",
@@ -138,7 +120,7 @@
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -152,13 +134,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"gan_generated_image_epoch",
-			"gan_generated_image_epoch_1.png",
-			"xrange",
-			"interp",
-			"pep8",
-			"tot-tot",
-			"pep8",
 			"start",
 			"sh",
 			"shallow",
@@ -170,7 +145,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"range"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -181,14 +155,76 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "code05_ex2_v1_MNIST_overfitting.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 638,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								638,
+								638
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 39.0
 	},
 	"input":
 	{
@@ -219,7 +255,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 341.0
+		"height": 147.0
 	},
 	"output.find_results":
 	{
@@ -229,7 +265,7 @@
 	"project": "MLclass.sublime-project",
 	"replace":
 	{
-		"height": 59.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":

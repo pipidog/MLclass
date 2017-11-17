@@ -20,7 +20,7 @@ input_size = 28     # width of images
 batch_size = 50
 cell_size = 100
 learning_rate = 0.001
-model_type='GRU'   # 'RNN', 'LSTM', 'GRU'
+model_type='LSTM'   # 'RNN', 'LSTM', 'GRU'
 
 # preprocessing data =================
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
@@ -61,7 +61,7 @@ model.compile(optimizer=Adam(learning_rate),
 # output model summary
 print(model.summary())
 utils.plot_model(model,to_file='model.png',show_shapes=True)
-sys.exit()
+
 # run model =========================
 model.fit(
     x_train, 

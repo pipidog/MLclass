@@ -20,11 +20,10 @@ phi_shift=np.pi/2
 model_type='GRU'  #'RNN','LSTM','GRU'
 time_steps = 20
 batch_size = 50
-cell_size = 20
+cell_size = 50
 
 # training parameters
 learning_rate = 0.006
-training_steps=500
 tot_steps=300
 
 # generate data ======================

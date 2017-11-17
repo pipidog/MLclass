@@ -1,4 +1,5 @@
-'''This is a reproduction of the IRNN experiment
+'''
+This is a reproduction of the IRNN experiment
 with pixel-by-pixel sequential MNIST in
 "A Simple Way to Initialize Recurrent Networks of Rectified Linear Units"
 by Quoc V. Le, Navdeep Jaitly, Geoffrey E. Hinton
