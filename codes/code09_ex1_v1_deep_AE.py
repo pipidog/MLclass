@@ -72,9 +72,9 @@ elif task is 'predict':
 		#plot_only = 500
 		tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000); 
 		low_dim_embs = tsne.fit_transform(encoded_imgs)
-		plt.scatter(low_dim_embs[:, 0], low_dim_embs[:, 1], c=y_test[:pred_size],cmap='tab20')
+		plt.scatter(low_dim_embs[:, 0], low_dim_embs[:, 1], c=y_test[:pred_size],cmap='tab10')
 	else:
-		plt.scatter(encoded_imgs[:, 0], encoded_imgs[:, 1], c=y_test[:pred_size],cmap='tab20')
+		plt.scatter(encoded_imgs[:, 0], encoded_imgs[:, 1], c=y_test[:pred_size],cmap='tab10')
 
 	plt.colorbar()
 	plt.show()
