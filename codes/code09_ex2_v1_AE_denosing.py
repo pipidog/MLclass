@@ -48,8 +48,6 @@ if task is 'train':
 	x = Conv2D(16, (3, 3), activation='relu', padding='same')(x)
 	encoded = MaxPooling2D((2, 2), padding='same')(x)
 
-	# at this point the representation is (7, 7, 32)
-
 	x = Conv2D(16, (3, 3), activation='relu', padding='same')(encoded)
 	x = UpSampling2D((2, 2))(x)
 	x = Conv2D(16, (3, 3), activation='relu', padding='same')(x)
@@ -58,6 +56,7 @@ if task is 'train':
 
 	autoencoder = Model(input_img, decoded)
 	autoencoder.compile(optimizer='adadelta', loss='binary_crossentropy')
+	print(autoencoder.summary())
 
 	# train mode by batch ==================
 	autoencoder.fit(x_train_noisy, x_train,
@@ -73,28 +72,3 @@ elif task is 'denosing':
 	plot_img(x_test_noisy[:25],0,True)
 	plot_img(denosing_img,1,True)
 
-
-
-
-
-
-
-
-
-#plot_img(x_train_noisy[:25],)
-# batch_step=int(x_train.shape[0]/batch_size)
-# for n in range(ephcos):
-# 	print('ephcos',n)
-# 	start=time.time()
-# 	for m in range(batch_step):
-# 		shuffle_int=np.random.randint(0, x_train.shape[0], size=batch_size)
-# 		autoencoder.train_on_batch(x_train_noisy[shuffle_int],x_train[shuffle_int])
-
-# 		if m % int(batch_step/10) == 0:
-# 			print(str(int(100*m/batch_step))+'% .. ',end='')
-# 			sys.stdout.flush()
-# 	print('=> time elapsed = {0:.1f}s'.format(time.time()-start))
-
-# 	# perform denosing
-# 	denoising_img=autoencoder.predict(x_train_noisy[:25])
-# 	plot_img(denoising_img,n)
