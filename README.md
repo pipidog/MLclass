@@ -1,4 +1,7 @@
-![website logo](./others/keras-tensorflow-logo.jpg)
+<p align="center">
+  <img src="./others/keras-tensorflow-logo.jpg">
+</p>
+
 # What is this?
 This repo is the course website of my deep learning class: Deep Learning Zoo
 at Physics Department, UC Davis. Each week I will introduce several deep learning
@@ -18,8 +21,8 @@ email to spi@ucdavis.edu.
 [week 06: Conventional Neural Network](https://github.com/pipidog/MLclass/blob/master/slide/slide06%20(CNN).pdf)          
 [week 07: Recurrent Neural Network](https://github.com/pipidog/MLclass/blob/master/slide/slide07%20(RNN%2BLSTM%2BGRU%2BIRNN).pdf)   
 [week 08: Natural Language Processing](https://github.com/pipidog/MLclass/blob/master/slide/slide08%20(Natural%20Language%20Processing).pdf)    
-[week 09: Autoencoder](./slide/slide09 (https://github.com/pipidog/MLclass/blob/master/slide/slide09%20(autoencoder%2Bone-shot%20learning).pdf)    
-[week 10: Multi-Machine Model (GAN, Dual, Siemanse, etc.)]    
+[week 09: Autoencoder](https://github.com/pipidog/MLclass/blob/master/slide/slide09%20(autoencoder%2Bone-shot%20learning).pdf)    
+week 10: Multi-Machine Model (GAN, Dual, Siemanse, etc.)
                 
 # Codes List:
 Below I list all the examples for you to quick search. 
