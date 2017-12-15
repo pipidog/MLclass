@@ -9,8 +9,8 @@ topics, from beginning to advanced. Participants are mostly PhD students or
 researchers who want to use deep learning techniques in their research fields.
 
 Each week I will also prepare a few codes to demonstrate the concepts. Most of
-our code are based on Tensorflow and Keras. If you have further questions, please 
-email to spi@ucdavis.edu.
+our code are based on **Tensorflow** and **Keras**. If you have further 
+questions, please email to spi@ucdavis.edu.
 
 # Course Schedule:          
 [week 01: Introduction to deep learning](https://github.com/pipidog/MLclass/blob/master/slide/slide01%20(introduction%20to%20ML).pdf)             
