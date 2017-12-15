@@ -1,39 +1,60 @@
 ![TF logo](https://github.com/pipidog/MLclass/raw/master/notes/TF_logo_no_shadow_1.png)
 # What is this?
-This is the reposity of my course ( or more precisely, 
-a discussion gruop): Deep Learning Using Tensorflow at Physics Department, 
-UC Davis. Each week I will introduce several topics, from beginning to 
-advanced, about machine learning techniqes. Keyword notes and lecture 
-slides can be found in the note/slide folders.          
+This repo is the course website of my deep learning class: Deep Learning Zoo
+at Physics Department, UC Davis. Each week I will introduce several deep learning
+topics, from beginning to advanced. Participants are mostly PhD students or 
+researchers who want to use deep learning techniques in their research fields.
 
-Each week I will also prepare a few codes to explain what we have learned 
-in the class. Most codes are based on Google's tensorflow, but Keras 
-and Scikit learn will also included in the future.      
+Each week I will also prepare a few codes to demonstrate the concepts. Most of
+our code are based on Tensorflow and Keras. If you have further questions, please 
+email to spi@ucdavis.edu.
 
-This course doesn't aim to teach you all the theories about machine learning, 
-but just a quick hands-on for people who want to use machine learning as a 
-tool to deal with real problems. If you have further questions, please email
-to spi@ucdavis.edu or visit our facebook pages for discussion.
+# Course Schedule:          
+    [week 01: Introduction to deep learning](![TF logo](https://github.com/pipidog/MLclass/raw/master/notes/TF_logo_no_shadow_1.png)
+# What is this?
+This repo is the course website of my deep learning class: Deep Learning Zoo
+at Physics Department, UC Davis. Each week I will introduce several deep learning
+topics, from beginning to advanced. Participants are mostly PhD students or 
+researchers who want to use deep learning techniques in their research fields.
 
-* Course Schedule (update weekly):          
-    week 1: introduction to machine learning             
-    week 2: basis of deep learning: regression            
-    week 3: basis of deep learning: tensorboard & classification    
-    week 4: basis of deep learning: Look back deep learning again            
-    week 5: basis of deep learning: MNIST & Keras       
-    week 6: Introduction to conventional neural network       
+Each week I will also prepare a few codes to demonstrate the concepts. Most of
+our code are based on Tensorflow and Keras. If you have further questions, please 
+email to spi@ucdavis.edu.
+
+# Course Schedule:          
+    [week 01: Introduction to deep learning](./slide/slide01 (introduction to ML).pdf)             
+    week 02: Basis of Deep Learning: Regression            
+    week 03: Basis of Deep Learning: Tensorboard & Classification    
+    week 04: Basis of Deep Learning: Look back Deep Learning Again            
+    week 05: Basis of Deep Learning: MNIST & Keras       
+    week 06: Conventional Neural Network       
+    week 07: Recurrent Neural Network
+    week 08: Natural Language Processing
+    week 09: Autoencoder
+    week 10: Multi-Machine Model (GAN, Dual, Siemanse, etc.)
     
-    --- below are are planned future topics ---        
-            CNN 
-            RNN     
-            Autoencoder    
-            Special Projects        
+   
                 
-* Tutorial Codes:   
-    see /code/README.txt for example codes of each week. 
-    code02_ex1_v1 means: week2, example 1, version 1    
+# Codes List:
+Below I list all the examples for you to quick search. 
+
+
     
-    for some examples, I will prepare several versions which are slightly
-    different with various techniqes. You should read all of them to fully
-    understand what we have learned in the classes. 
+)             
+    week 02: Basis of Deep Learning: Regression            
+    week 03: Basis of Deep Learning: Tensorboard & Classification    
+    week 04: Basis of Deep Learning: Look back Deep Learning Again            
+    week 05: Basis of Deep Learning: MNIST & Keras       
+    week 06: Conventional Neural Network       
+    week 07: Recurrent Neural Network
+    week 08: Natural Language Processing
+    week 09: Autoencoder
+    week 10: Multi-Machine Model (GAN, Dual, Siemanse, etc.)
+    
+   
+                
+# Codes List:
+Below I list all the examples for you to quick search. 
+
+
     
