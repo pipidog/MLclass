@@ -29,9 +29,9 @@ nVidia GPUs, it is strongly recommend to use GPUs as backend.
                 
 # Code Examples:    
 Below I list all the examples for you to quick search.     
-[Package Install.txt](https://github.com/pipidog/MLclass/blob/master/codes/01_Package_install/Package%20Install.txt)    
+[<Package Install.txt>](https://github.com/pipidog/MLclass/blob/master/codes/01_Package_install/Package%20Install.txt)    
 This file shows how to install all necessary packages and set up your envoriments.     
-[MLP_curve_fitting_1.py](https://github.com/pipidog/MLclass/blob/master/codes/02_MLP_regression/MLP_curve_fitting_1.py)     
+[<MLP_curve_fitting_1.py>](https://github.com/pipidog/MLclass/blob/master/codes/02_MLP_regression/MLP_curve_fitting_1.py)     
 This code shows how to use a simple multilayer perceptron for curve fitting.     
  
 
