@@ -27,12 +27,12 @@ nVidia GPUs, it is strongly recommend to use GPUs as backend.
 [week 09: Autoencoder](https://github.com/pipidog/MLclass/blob/master/slide/slide09%20(autoencoder%2Bone-shot%20learning).pdf)    
 [week 10: Advanced Neural Networks] 
                 
-# Code Examples:
-Below I list all the examples for you to quick search. 
+# Code Examples:    
+Below I list all the examples for you to quick search.     
 [Package Install.txt](https://github.com/pipidog/MLclass/blob/master/codes/01_Package_install/Package%20Install.txt)    
-This file shows how to install all necessary packages and set up your envoriments. 
+This file shows how to install all necessary packages and set up your envoriments.     
 [MLP_curve_fitting_1.py](https://github.com/pipidog/MLclass/blob/master/codes/02_MLP_regression/MLP_curve_fitting_1.py)     
-This code shows how to use a simple multilayer perceptron for curve fitting. 
+This code shows how to use a simple multilayer perceptron for curve fitting.     
  
 
 
