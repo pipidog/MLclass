@@ -2,8 +2,8 @@
   <img src="./others/keras-tensorflow-logo.jpg">
 </p>
 
-# What is this?
-This repo is the course website of my deep learning class: Deep Learning Zoo
+# Welcome to Deep Learning Zoo
+This repo is the course website of my deep learning class: **Deep Learning Zoo**
 at Physics Department, UC Davis. Each week I will introduce several deep learning
 topics, from beginning to advanced. Participants are mostly PhD students or 
 researchers who want to use deep learning techniques in their research fields.
@@ -11,6 +11,9 @@ researchers who want to use deep learning techniques in their research fields.
 Each week I will also prepare a few codes to demonstrate the concepts. Most of
 our code are based on **Tensorflow** and **Keras**. If you have further 
 questions, please email to spi@ucdavis.edu.
+
+Note that deep learning can hugely speed up by using GPU. Therefore, if you have
+nVidia GPUs, it is strongly recommend to use GPUs as backend. 
 
 # Course Schedule:          
 [week 01: Introduction to deep learning](https://github.com/pipidog/MLclass/blob/master/slide/slide01%20(introduction%20to%20ML).pdf)             
@@ -22,9 +25,9 @@ questions, please email to spi@ucdavis.edu.
 [week 07: Recurrent Neural Network](https://github.com/pipidog/MLclass/blob/master/slide/slide07%20(RNN%2BLSTM%2BGRU%2BIRNN).pdf)   
 [week 08: Natural Language Processing](https://github.com/pipidog/MLclass/blob/master/slide/slide08%20(Natural%20Language%20Processing).pdf)    
 [week 09: Autoencoder](https://github.com/pipidog/MLclass/blob/master/slide/slide09%20(autoencoder%2Bone-shot%20learning).pdf)    
-week 10: Multi-Machine Model (GAN, Dual, Siemanse, etc.)
+week 10: Advanced Deep Learning Models (GAN, Dual, one-shot, etc.)
                 
-# Codes List:
+# Code Examples:
 Below I list all the examples for you to quick search. 
 
 

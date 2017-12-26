@@ -1,0 +1,72 @@
+1. install anaconda: (please install python 3.x)
+https://docs.anaconda.com/anaconda/install/
+(strongly recommend to install in your home not the root)
+
+2. install CUDA and cuDNN (optional, for nVidia GPU users only)
+    1). install cuda toolkit (TF only supports 8.0 now)
+    https://developer.nvidia.com/cuda-downloads
+    
+    2). install cuDNN (TF only supports 6.1 now):
+    https://developer.nvidia.com/cudnn
+    * cuDNN doesn't need installation. Just unzip it and set the folder
+    ./cudnn/bin to your system path, so other codes can reach the file
+    cudnn65_5.dll directly. 
+    
+3. create Python envoriment (optional)
+    It is strongly recommend to install your deep learning packages
+    in an independent Python evnoriments. 
+    
+    For GPU users:
+    $> conda create --name tensorflow-gpu python=3.6 anaconda
+    
+    For CPU users:
+    $> conda create --name tensorflow python=3.6 anaconda
+
+4. switch to your new conda evnoriments:
+    For GPU users:
+    $> activate tensorflow-gpu 
+    
+    For CPU users:
+    $> activate tensorflow
+
+4. install tensorflow 
+    For GPU users:
+    $> pip install --upgrade tensorflow-gpu
+    
+    For CPU users:
+    $> pip install --upgrade tensorflow
+    
+    * you may found your pip broken after installing tensorflow. It is because
+    tensorflow replaced your html5lib to an older version. use conda to fix it.
+    
+    $> conda install html5lib
+    
+5. install graphviz (for Keras):
+    https://www.graphviz.org/
+    
+6. install hdf5, graphviz and pydot in python (for keras):
+    $> pip install --upgrade hdf5
+    $> pip install graphviz
+    $> pip install pydot
+    
+6. install keras:
+    $> pip install --updrade keras 
+    
+
+7. install scikit learn (will be used sometimes):
+    http://scikit-learn.org/stable/
+
+    $> pip install -U scikit-learn
+
+
+8. To activate or deactivate Python envoriment:
+    GPU user:
+    $> activate tensorflow-gpu 
+    
+    CPU user:
+    $> activate tensorflow
+    
+    * replace "activate" to "deactivate" if you want deactivate the envoriment.
+    
+9. Test:
+    Try "import keras" in Python, if there is no error message, your are all set. 
