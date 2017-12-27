@@ -28,16 +28,16 @@ nVidia GPUs, it is strongly recommend to use GPUs as backend.
 [week 10: Advanced Neural Networks] 
                 
 # Example Codes:    
-【week 1】:        
+【week 1】:         
 [Package Install.txt](https://github.com/pipidog/MLclass/blob/master/codes/01_Package_install/Package%20Install.txt)          
 => This file shows how to install all necessary packages and set up your environments.          
 【week 2】:               
 [MLP_curve_fitting_1.py](https://github.com/pipidog/MLclass/blob/master/codes/02_MLP_regression/MLP_curve_fitting_1.py)             
-=> This code shows how to define a neural layer to fit a curve
-[MLP_curve_fitting_2.py](https://github.com/pipidog/MLclass/blob/master/codes/02_MLP_regression/MLP_curve_fitting_2.py)            
-=> similar to MLP_curve_fitting_1 but with batch training
+=> This code shows how to define a neural layer to fit a curve          
+[MLP_curve_fitting_2.py](https://github.com/pipidog/MLclass/blob/master/codes/02_MLP_regression/MLP_curve_fitting_2.py)              
+=> similar to MLP_curve_fitting_1 but with batch training       
 [MLP_curve_fitting_3.py](https://github.com/pipidog/MLclass/blob/master/codes/02_MLP_regression/MLP_curve_fitting_3.py)      
-=> similar to MLP_curve_fitting_2 but use built-in API to construct layers      
+=> similar to MLP_curve_fitting_2 but use built-in API to construct layers              
 【week 3】:           
 [Tensorboard_1.py](https://github.com/pipidog/MLclass/blob/master/codes/03_MLP_Classification/Tensorboard_1.py)     
 => This code shows how to use tensorboard to see computation graph      
