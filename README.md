@@ -73,20 +73,20 @@ nVidia GPUs, it is strongly recommend to use GPUs as backend.
 => this code shows how to use RNN/LSTM to fit time series data     
 [IRNN_mnist.py](https://github.com/pipidog/MLclass/blob/master/codes/07_RNN/IRNN_mnist.py)         
 => this code shows how to use IRNN to do MNIST      
-【week 8】:
+【week 8】:       
 [NLP_preprocessing.py](https://github.com/pipidog/MLclass/blob/master/codes/08_NLP/NLP_preprocessing.py)          
 => this code shows how to download & tokenize text (IMDB) data for later training       
-[NLP_MLP_Retuers.py](https://github.com/pipidog/MLclass/blob/master/codes/08_NLP/NLP_MLP_Retuers.py)     
-=> this code shows how to use MLP to categorize news from Reuters 46 News dataset
+[NLP_MLP_Retuers.py](https://github.com/pipidog/MLclass/blob/master/codes/08_NLP/NLP_MLP_Retuers.py)         
+=> this code shows how to use MLP to categorize news from Reuters 46 News dataset       
 [NLP_IMDB_CNN_RNN.py](https://github.com/pipidog/MLclass/blob/master/codes/08_NLP/NLP_IMDB_CNN_RNN.py)     
 => this code shows how to use CNN+RNN for sentimental prediction on IMDB dataset        
 [NLP_IMDB_LSTM.py](https://github.com/pipidog/MLclass/blob/master/codes/08_NLP/NLP_IMDB_LSTM.py)       
 => this code shows how to use LSTM for sentimental prediction on IMDB dataset       
-【week 9】:
-[Deep_Autoencoder.py](https://github.com/pipidog/MLclass/blob/master/codes/09_Autoencoder/Deep_Autoencoder.py)  
-=> this code shows how to use autoencoder for dimension reduction on MNIST
+【week 9】:       
+[Deep_Autoencoder.py](https://github.com/pipidog/MLclass/blob/master/codes/09_Autoencoder/Deep_Autoencoder.py)      
+=> this code shows how to use autoencoder for dimension reduction on MNIST          
 [AE_denosing.py](https://github.com/pipidog/MLclass/blob/master/codes/09_Autoencoder/AE_denosing.py)       
-=> this code shows how to use autoencoder for denoising
+=> this code shows how to use autoencoder for denoising     
 
 
     
