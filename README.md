@@ -27,15 +27,66 @@ nVidia GPUs, it is strongly recommend to use GPUs as backend.
 [week 09: Autoencoder](https://github.com/pipidog/MLclass/blob/master/slide/slide09%20(autoencoder%2Bone-shot%20learning).pdf)    
 [week 10: Advanced Neural Networks] 
                 
-# Code Examples:    
-Below I list all the examples for you to quick search.     
-[<Package Install.txt>](https://github.com/pipidog/MLclass/blob/master/codes/01_Package_install/Package%20Install.txt)    
-This file shows how to install all necessary packages and set up your envoriments.     
-[<MLP_curve_fitting_1.py>](https://github.com/pipidog/MLclass/blob/master/codes/02_MLP_regression/MLP_curve_fitting_1.py)     
-This code shows how to use a simple multilayer perceptron for curve fitting.     
- 
-
-
+# Example Codes:    
+【week 1】:        
+[Package Install.txt](https://github.com/pipidog/MLclass/blob/master/codes/01_Package_install/Package%20Install.txt)          
+=> This file shows how to install all necessary packages and set up your environments.          
+【week 2】:               
+[MLP_curve_fitting_1.py](https://github.com/pipidog/MLclass/blob/master/codes/02_MLP_regression/MLP_curve_fitting_1.py)             
+=> This code shows how to define a neural layer to fit a curve
+[MLP_curve_fitting_2.py](https://github.com/pipidog/MLclass/blob/master/codes/02_MLP_regression/MLP_curve_fitting_2.py)            
+=> similar to MLP_curve_fitting_1 but with batch training
+[MLP_curve_fitting_3.py](https://github.com/pipidog/MLclass/blob/master/codes/02_MLP_regression/MLP_curve_fitting_3.py)      
+=> similar to MLP_curve_fitting_2 but use built-in API to construct layers      
+【week 3】:           
+[Tensorboard_1.py](https://github.com/pipidog/MLclass/blob/master/codes/03_MLP_Classification/Tensorboard_1.py)     
+=> This code shows how to use tensorboard to see computation graph      
+[Tensorboard_2.py](https://github.com/pipidog/MLclass/blob/master/codes/03_MLP_Classification/Tensorboard_2.py)     
+=> similar to Tensorboard_1.py, but shows how to visualize training results     
+[Point_classification.py](https://github.com/pipidog/MLclass/blob/master/codes/03_MLP_Classification/Point_classification.py)       
+=> This code shows how to use simple MLP for point classification       
+【week 4】:       
+[save_tf_model.py](https://github.com/pipidog/MLclass/blob/master/codes/04_Overfitting/curve_overtiffing.py)           
+=> this code shows how to save trained model in tensorflow          
+[curve_overtiffing.py](https://github.com/pipidog/MLclass/blob/master/codes/04_Overfitting/curve_overtiffing.py)        
+=> this code shows how to use dropout to improve overfitting in a curve fitting problem     
+【week 5】:       
+[MLP_mnist_1.py](https://github.com/pipidog/MLclass/blob/master/codes/05_MLP_MNIST/MLP_mnist_1.py)     
+=> this code shows how to load and visualize MNIST handwriting digits in tensorflow     
+[MLP_mnist_2.py](https://github.com/pipidog/MLclass/blob/master/codes/05_MLP_MNIST/MLP_mnist_2.py)     
+=> similar to MLP_mnist_1.py but now shows how to train a MLP for MNIST recognization       
+[MLP_mnist_overfitting.py](https://github.com/pipidog/MLclass/blob/master/codes/05_MLP_MNIST/MLP_mnist_overfitting.py)      
+=> similar to MLP_mnist_2.py but include dropout layers to improve overfitting      
+[MLP_Keras_mnist.py](https://github.com/pipidog/MLclass/blob/master/codes/05_MLP_MNIST/MLP_Keras_mnist.py)     
+=> similar to MLP_mnist_overfitting.py but use Keras        
+【week 6】:       
+[CNN_mnist_1.py](https://github.com/pipidog/MLclass/blob/master/codes/06_CNN/CNN_mnist_1.py)          
+=> this code shows how to construct a CNN to recognize MNIST        
+[CNN_mnist_2.py](https://github.com/pipidog/MLclass/blob/master/codes/06_CNN/CNN_mnist_2.py)          
+=> similar to CNN_mnist_1.py but use t-SNE reduce dimension from CNN output for visualization       
+[CNN_mnist_keras.py](https://github.com/pipidog/MLclass/blob/master/codes/06_CNN/CNN_mnist_keras.py)       
+=> similar to CNN_mnist_1.py but use Keras      
+【week 7】:       
+[RNN_mnist.py](https://github.com/pipidog/MLclass/blob/master/codes/07_RNN/RNN_mnist.py)               
+=> this code shows how to use RNN/LSTM to do MNIST      
+[RNN_curve_fitting.py](https://github.com/pipidog/MLclass/blob/master/codes/07_RNN/RNN_curve_fitting.py)       
+=> this code shows how to use RNN/LSTM to fit time series data     
+[IRNN_mnist.py](https://github.com/pipidog/MLclass/blob/master/codes/07_RNN/IRNN_mnist.py)         
+=> this code shows how to use IRNN to do MNIST      
+【week 8】:
+[NLP_preprocessing.py](https://github.com/pipidog/MLclass/blob/master/codes/08_NLP/NLP_preprocessing.py)          
+=> this code shows how to download & tokenize text (IMDB) data for later training       
+[NLP_MLP_Retuers.py](https://github.com/pipidog/MLclass/blob/master/codes/08_NLP/NLP_MLP_Retuers.py)     
+=> this code shows how to use MLP to categorize news from Reuters 46 News dataset
+[NLP_IMDB_CNN_RNN.py](https://github.com/pipidog/MLclass/blob/master/codes/08_NLP/NLP_IMDB_CNN_RNN.py)     
+=> this code shows how to use CNN+RNN for sentimental prediction on IMDB dataset        
+[NLP_IMDB_LSTM.py](https://github.com/pipidog/MLclass/blob/master/codes/08_NLP/NLP_IMDB_LSTM.py)       
+=> this code shows how to use LSTM for sentimental prediction on IMDB dataset       
+【week 9】:
+[Deep_Autoencoder.py](https://github.com/pipidog/MLclass/blob/master/codes/09_Autoencoder/Deep_Autoencoder.py)  
+=> this code shows how to use autoencoder for dimension reduction on MNIST
+[AE_denosing.py](https://github.com/pipidog/MLclass/blob/master/codes/09_Autoencoder/AE_denosing.py)       
+=> this code shows how to use autoencoder for denoising
 
 
     
