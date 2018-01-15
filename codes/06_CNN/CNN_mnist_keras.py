@@ -27,7 +27,7 @@ dnn_dropout=0.5
 dnn_activation='relu'
 
 # train model
-epochs=5
+epochs=20
 batch_size=100
 
 # show prediction (for postprocess only)
@@ -74,7 +74,7 @@ if task is 'train':
     model.add(Dense(10,activation='softmax'))
 
     print(model.summary())
-    plot_model(model,to_file='model.png')
+    #plot_model(model,to_file='model.png')
 
     # train model =====================================
     model.compile(loss='categorical_crossentropy',

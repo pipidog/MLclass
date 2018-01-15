@@ -25,7 +25,7 @@ nVidia GPUs, it is strongly recommend to use GPUs as backend.
 [week 07: Recurrent Neural Network](https://github.com/pipidog/MLclass/blob/master/slide/slide07%20(RNN%2BLSTM%2BGRU%2BIRNN).pdf)   
 [week 08: Natural Language Processing](https://github.com/pipidog/MLclass/blob/master/slide/slide08%20(Natural%20Language%20Processing).pdf)    
 [week 09: Autoencoder](https://github.com/pipidog/MLclass/blob/master/slide/slide09%20(autoencoder%2Bone-shot%20learning).pdf)    
-[week 10: Advanced Neural Networks] 
+[week 10: Advanced Neural Networks(GAN, one-shot, style-transfer, seq2seq, attention based)] 
                 
 # Example Codes:    
 【week 1】:         
